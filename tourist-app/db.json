@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Marko",
+      "lastName": "Zafirović",
+      "email": "marko.zafirovic@elfak.rs",
+      "admin": true,
+      "age": "23"
+    },
+    {
+      "id": "2",
+      "firstName": "Petar",
+      "lastName": "Petrović",
+      "email": "petar.petrovic@elfak.rs",
+      "admin": false,
+      "age": "24"
+    },
+    {
+      "id": "3",
+      "firstName": "Stefan",
+      "lastName": "Stefanović",
+      "email": "stefan.stefanovic@elfak.rs",
+      "admin": false,
+      "age": "26"
+    },
+    {
+      "id": "4",
+      "firstName": "Miloš",
+      "lastName": "Milošević",
+      "email": "milos.milosevic@elfak.rs",
+      "admin": false,
+      "age": "27"
+    }
+  ],
+  "arrangments": [
+    {
+      "typeId": "1",
+      "country": "Grčka",
+      "destinationId": 1,
+      "departureDate": "",
+      "nights": 10,
+      "price": 250,
+      "persons": 3,
+      "children": 2,
+      "numberOfRooms": 2
+    }
+  ],
+  "arrangmentTypes": [
+    { "id": 1, "name": "Paket aranžman avionom" },
+    { "id": 2, "name": "Paket aranžman autobusom" },
+    { "id": 3, "name": "Hoteli (sopstveni prevoz)" },
+    { "id": 4, "name": "Apartmani (sopstveni prevoz)" },
+    { "id": 5, "name": "Gradovi Evrope" },
+    { "id": 6, "name": "Wellness&Spa" }
+  ],
+  "destinations": [{ "id": "1", "name": "Krf", "rating": 9.5 }],
+  "destinationRatings": [{ "userId": 2, "rating": 9.5 }],
+  "accommodationRatings": [{ "userId": 2, "rating": 8.0 }],
+  "accommodations": [
+    {
+      "id": 1,
+      "destinationId": 1,
+      "name": "Hotel Lux",
+      "type": "Hotel",
+      "numberOfStars": 3
+    }
+  ]
+}

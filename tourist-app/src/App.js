@@ -1,8 +1,16 @@
 import React, { Component } from "react";
-
+import { Provider } from "react-redux";
+import Arrangments from "./components/arrangments";
+import store from "./store";
 class App extends Component {
   render() {
-    return <div>My react component</div>;
+    return (
+      <Provider store={store}>
+        <div class="App">
+          <Arrangments />
+        </div>
+      </Provider>
+    );
   }
 }
 
