@@ -35,7 +35,6 @@
   ],
   "arrangements": [
     {
-      "id": 1,
       "typeId": "1",
       "country": "Grčka",
       "destinationId": 1,
@@ -48,16 +47,50 @@
     }
   ],
   "arrangmentTypes": [
-    { "id": 1, "name": "Paket aranžman avionom" },
-    { "id": 2, "name": "Paket aranžman autobusom" },
-    { "id": 3, "name": "Hoteli (sopstveni prevoz)" },
-    { "id": 4, "name": "Apartmani (sopstveni prevoz)" },
-    { "id": 5, "name": "Gradovi Evrope" },
-    { "id": 6, "name": "Wellness&Spa" }
+    {
+      "id": 1,
+      "name": "Paket aranžman avionom"
+    },
+    {
+      "id": 2,
+      "name": "Paket aranžman autobusom"
+    },
+    {
+      "id": 3,
+      "name": "Hoteli (sopstveni prevoz)"
+    },
+    {
+      "id": 4,
+      "name": "Apartmani (sopstveni prevoz)"
+    },
+    {
+      "id": 5,
+      "name": "Gradovi Evrope"
+    },
+    {
+      "id": 6,
+      "name": "Wellness&Spa"
+    }
   ],
-  "destinations": [{ "id": "1", "name": "Krf", "rating": 9.5 }],
-  "destinationRatings": [{ "userId": 2, "rating": 9.5 }],
-  "accommodationRatings": [{ "userId": 2, "rating": 8.0 }],
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Krf",
+      "rating": 9.5
+    }
+  ],
+  "destinationRatings": [
+    {
+      "userId": 2,
+      "rating": 9.5
+    }
+  ],
+  "accommodationRatings": [
+    {
+      "userId": 2,
+      "rating": 8
+    }
+  ],
   "accommodations": [
     {
       "id": 1,

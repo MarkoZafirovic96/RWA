@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div class="App">
+        <div className="App">
           <Arrangments />
         </div>
       </Provider>

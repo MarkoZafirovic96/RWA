@@ -1,28 +1,27 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { fetchArrangments } from "../actions/arrangmentsActions";
+import { fetchArrangements } from "../actions/arrangmentsActions";
 
 class Arrangments extends Component {
-  componentWillMount() {
-    this.props.fetchArrangments();
+  componentDidMount() {
+    this.props.fetchArrangements();
   }
 
   render() {
-    const arranmentsItems = this.props.arrangments.map((arrangment) => (
-      <div ket={arrangments.id}>
-        <label>{arrangment.name}</label>
-      </div>
+    const arrangementsItems = this.props.arrangements.map((arrangement) => (
+      <label key={arrangement.id}>{arrangement.country}</label>
     ));
     return (
       <div>
         Arrangments
-        {arranmentsItems}
+        <br />
+        {arrangementsItems}
       </div>
     );
   }
 }
 
 const mapStateToProps = (state) => ({
-  arrangments: state.arrangments.items,
+  arrangements: state.arrangements.items,
 });
-export default connect(mapStateToProps, { fetchArrangments })(Arrangments);
+export default connect(mapStateToProps, { fetchArrangements })(Arrangments);
