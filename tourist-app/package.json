@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "css-loader": "^3.4.2",
     "file-loader": "^6.0.0",
     "http-proxy-middleware": "^1.0.3",
