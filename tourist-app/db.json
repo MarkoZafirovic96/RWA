@@ -36,10 +36,19 @@
   "arrangements": [
     {
       "id": 1,
-      "typeId": "1",
+      "type": { "id": 1, "name": "Paket aranžman avionom" },
+      "accommodation": {
+        "id": 1,
+        "destinationId": { "id": "1", "name": "Krf", "rating": 9.5 },
+        "name": "Hotel Lux",
+        "type": "Hotel",
+        "numberOfStars": 3
+      },
       "country": "Grčka",
-      "destinationId": 1,
-      "departureDate": "",
+      "destination": { "id": "1", "name": "Krf", "rating": 9.5 },
+      "defaulImmage": { "id": 1, "url": "" },
+      "photos": [{ "id": "1", "url": "" }],
+      "departureDate": "2020-0-25T13:37:27+00:00",
       "nights": 10,
       "price": 250,
       "persons": 3,
